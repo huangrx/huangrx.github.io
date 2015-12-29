@@ -188,6 +188,7 @@ footer {
   }
   .sub-tit {
     font-size: 1rem;
+    padding-top: .5rem;
   }
   .view-version {
     padding: 5% 0;
@@ -217,6 +218,15 @@ footer {
     width: 90%;
   }
 }
+@media screen and (max-width: 320px) {
+  .tit {
+    font-size: 30px;
+  }
+  .sub-tit {
+    font-size: .8rem;
+  }
+}
+
 /* background images */
 #index-bg {
   background: #ccc url(http://ruxin.u.qiniudn.com/index/bg-0.jpg) no-repeat center/cover;
